@@ -34,11 +34,11 @@ Stores slash command data in your cache for future usage. This function will ret
 1. Open Discord in your web browser and [sign into your account](https://discord.com/login).
 2. Open DevTools (ctrl+shift+i on Windows) and navigate to the Network tab, then type "interactions" into the filter bar.
 
-<img src="https://private-user-images.githubusercontent.com/68124391/271638920-89bd390b-de6f-4bd8-9333-8a7a23e6d90d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTYwMDA4MjAsIm5iZiI6MTY5NjAwMDUyMCwicGF0aCI6Ii82ODEyNDM5MS8yNzE2Mzg5MjAtODliZDM5MGItZGU2Zi00YmQ4LTkzMzMtOGE3YTIzZTZkOTBkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTI5VDE1MTUyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyMzg2OWM2NjlhMDVhYTM3MGQxNjMwODkxNTcxZjNhNGQxZjkxNWE1ZGUyZjIyNTk2MjQzMTA0NDMxYjZiZGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.G3YW9z0yIGvIOm2m-j0Rx0FymmrUihbSuAn2kCHJEJ4" style="width:75%">
+![image](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/d75822d3-87bc-4b1d-987e-ffd792774bce)
 
 3. Execute the slash command you wish to automate, then select the newly created item in the network panel and navigate to the payload section.
 
-<img src="https://private-user-images.githubusercontent.com/68124391/271641951-258fffb3-a1fc-4cf9-9ea8-f993fb635221.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTYwMDEwNzgsIm5iZiI6MTY5NjAwMDc3OCwicGF0aCI6Ii82ODEyNDM5MS8yNzE2NDE5NTEtMjU4ZmZmYjMtYTFmYy00Y2Y5LTllYTgtZjk5M2ZiNjM1MjIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTI5VDE1MTkzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlNmUyZjVkODYyM2YzMmM4MGVmZjE0MzM1Nzc5OWI5YWI3OTkxZjJlM2IyM2QyODIwZTFlZjU2NmFiNTZhYzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NMDVoNGEZJCTg58wJckgusMt1QKOtQCJL1_XHu10N0I" style="width:75%">
+![image](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/b8082267-c718-4373-85b8-08712c808994)
 
 4. As you can see in the screenshot above, there is a JSON array in this window that is labeled as `payload_json`. Simply copy this JSON array and you will have your slash command data.
 
