@@ -34,11 +34,11 @@ Stores slash command data in your cache for future usage. This function will ret
 1. Open Discord in your web browser and [sign into your account](https://discord.com/login).
 2. Open DevTools (ctrl+shift+i on Windows) and navigate to the Network tab, then type "interactions" into the filter bar.
 
-![image](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/d75822d3-87bc-4b1d-987e-ffd792774bce)
+![](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/d75822d3-87bc-4b1d-987e-ffd792774bce)
 
 3. Execute the slash command you wish to automate, then select the newly created item in the network panel and navigate to the payload section.
 
-![image](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/b8082267-c718-4373-85b8-08712c808994)
+![](https://github.com/KaliyaAlkaline/InteractionAPI-v2/assets/68124391/b8082267-c718-4373-85b8-08712c808994)
 
 4. As you can see in the screenshot above, there is a JSON array in this window that is labeled as `payload_json`. Simply copy this JSON array and you will have your slash command data.
 
